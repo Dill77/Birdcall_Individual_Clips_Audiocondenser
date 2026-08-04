@@ -9,3 +9,5 @@ This program allows the user to upload an audio clip (or an MP4) file, and uses 
 6. Download all clips as a single .zip file
 # Quick note: using 'birdnetlib', which is just the python version of the same thing Chirpity uses - to get around access issues (and the fact that Chirpity doesn't have the function of cutting audio files!) Please note that this is currently extremely slow to run, but can be cloned and run on multiple windows for different files simultaneously to make it worth it!
 Apologies that the Latitude and Longitude inputs are currently bugged - leave as 'none' the identification of the bird calls is unimportant for the clipping feature to work - only its classifications will be less likely to be correct and will need manual validation.
+# Note about v2:
+Version 2 is identical in every way to v1, besides the added functionality to also receive a randomised selection of background audio clips (not containing the bird call). This part was added afterwards due to the need for more background clips for the retrained Perchv2 ML model epoch 2 after initial seeding for more training data!
